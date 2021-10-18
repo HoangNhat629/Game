@@ -1,0 +1,6 @@
+Debug-*/
+Release-*/
+
+BIN-*/*
+!BIN-*/libEGL.dll
+!BIN-*/libGLESv2.dll

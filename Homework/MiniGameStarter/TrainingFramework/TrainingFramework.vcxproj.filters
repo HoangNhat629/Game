@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TrainingFramework\src">
+      <UniqueIdentifier>{8a7743df-99d6-42d7-8300-83c77d25c345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainingFramework">
+      <UniqueIdentifier>{b7c91549-da04-4eee-96da-520fa8f75a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainingFramework\src\GameObject">
+      <UniqueIdentifier>{486a991c-381d-4836-b7f7-6a9b4c66f5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainingFramework\src\GameManager">
+      <UniqueIdentifier>{7027cc7e-3941-43d3-9fd3-7009a76c222b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrainingFramework\src\GameStates">
+      <UniqueIdentifier>{2a875364-1a2b-4ea6-a6fe-716988208916}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>TrainingFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrainingFramework.cpp">
+      <Filter>TrainingFramework\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Sprite2D.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Camera.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Sprite3D.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Model.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Shader.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Texture.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Text.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\Font.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GameStateBase.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GameStateMachine.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSIntro.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSMenu.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSPlay.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager\ResourceManagers.cpp">
+      <Filter>TrainingFramework\src\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject\GameButton.cpp">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameStates\GSCredit.cpp">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game\GameWorld.cpp" />
+    <ClCompile Include="src\Game\Entity\PlayerEntity.cpp" />
+    <ClCompile Include="src\Game\Entity\Entity.cpp" />
+    <ClCompile Include="src\Game\Map\GameMap.cpp" />
+    <ClCompile Include="src\Game\SpriteUtils\SpriteLoader.cpp" />
+    <ClCompile Include="src\Game\Entity\BoxEntity.cpp" />
+    <ClCompile Include="src\Game\Entity\RockEntity.cpp" />
+    <ClCompile Include="src\Game\Entity\KeyEntity.cpp" />
+    <ClCompile Include="src\GameStates\GSLevelSelect.cpp" />
+    <ClCompile Include="src\GameObject\AtlasSprite2D.cpp" />
+    <ClCompile Include="src\Game\Editor\GameWorldEditor.cpp" />
+    <ClCompile Include="src\GameStates\GSLevelEditor.cpp" />
+    <ClCompile Include="src\ApplicationManagers\SoundManager.cpp" />
+    <ClCompile Include="src\GameStates\GSTutorial.cpp" />
+    <ClCompile Include="src\Game\StateMachine\StateMachine.cpp" />
+    <ClCompile Include="src\Game\StateMachine\StateBase.cpp" />
+    <ClCompile Include="src\Game\StateMachine\InvalidState.cpp" />
+    <ClCompile Include="src\Game\StateMachine\PlayState.cpp" />
+    <ClCompile Include="src\Game\StateMachine\GravitySelectState.cpp" />
+    <ClCompile Include="src\Game\StateMachine\UpdateState.cpp" />
+    <ClCompile Include="src\Game\StateMachine\EndState.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application.h">
+      <Filter>TrainingFramework\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameConfig.h">
+      <Filter>TrainingFramework\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager\Singleton.h">
+      <Filter>TrainingFramework\src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\BaseObject.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Sprite2D.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Camera.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Sprite3D.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Model.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Shader.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Texture.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Text.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\Font.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GameStateBase.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GameStateMachine.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSIntro.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSMenu.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSPlay.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager\ResourceManagers.h">
+      <Filter>TrainingFramework\src\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject\GameButton.h">
+      <Filter>TrainingFramework\src\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameStates\GSCredit.h">
+      <Filter>TrainingFramework\src\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextConstants.h">
+      <Filter>TrainingFramework\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game\GameWorld.h" />
+    <ClInclude Include="src\Game\Entity\Entity.h" />
+    <ClInclude Include="src\Game\Entity\PlayerEntity.h" />
+    <ClInclude Include="src\Game\Map\GameMap.h" />
+    <ClInclude Include="src\Common\Vector2Int.h" />
+    <ClInclude Include="src\Game\GameWorldConfig.h" />
+    <ClInclude Include="src\Game\GridSlot.h" />
+    <ClInclude Include="src\Game\Tile\TileType.h" />
+    <ClInclude Include="src\Game\SpriteUtils\SpriteLoader.h" />
+    <ClInclude Include="src\Game\Entity\BoxEntity.h" />
+    <ClInclude Include="src\Game\Entity\RockEntity.h" />
+    <ClInclude Include="src\Game\Entity\KeyEntity.h" />
+    <ClInclude Include="src\ApplicationManagers\InputManager.h" />
+    <ClInclude Include="src\ApplicationManagers\KeyCode.h" />
+    <ClInclude Include="src\GameStates\GSLevelSelect.h" />
+    <ClInclude Include="src\ApplicationManagers\SessionManager.h" />
+    <ClInclude Include="src\GameObject\AtlasSprite2D.h" />
+    <ClInclude Include="src\Game\Editor\GameWorldEditor.h" />
+    <ClInclude Include="src\Game\SpriteUtils\SpriteResourceConfig.h" />
+    <ClInclude Include="src\Game\Entity\EntityType.h" />
+    <ClInclude Include="src\GameStates\GSLevelEditor.h" />
+    <ClInclude Include="src\Game\Editor\EditorGridSlot.h" />
+    <ClInclude Include="src\Game\Editor\PaletteEntry.h" />
+    <ClInclude Include="src\Game\SpriteUtils\SpriteTraits.h" />
+    <ClInclude Include="src\ApplicationManagers\SoundManager.h" />
+    <ClInclude Include="src\GameStates\GSTutorial.h" />
+    <ClInclude Include="src\Game\StateMachine\StateMachine.h" />
+    <ClInclude Include="src\Game\StateMachine\StateType.h" />
+    <ClInclude Include="src\Game\StateMachine\StateBase.h" />
+    <ClInclude Include="src\Game\StateMachine\InvalidState.h" />
+    <ClInclude Include="src\Game\StateMachine\PlayState.h" />
+    <ClInclude Include="src\Game\StateMachine\GravitySelectState.h" />
+    <ClInclude Include="src\Game\StateMachine\UpdateState.h" />
+    <ClInclude Include="src\Game\StateMachine\EndState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
